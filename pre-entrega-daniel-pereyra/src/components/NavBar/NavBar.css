@@ -1,0 +1,31 @@
+.logo{
+    width: 70px;
+}
+
+.listaMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+    list-style: none;
+}
+
+.listaMenu li{
+    margin: 20px;
+}
+
+.listaMenu li a{
+color:white;
+}
+
+.listaMenu li a:hover{
+    color:rgb(247, 222, 222);
+    }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+}
+
